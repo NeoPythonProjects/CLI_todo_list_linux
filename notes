@@ -1,0 +1,20 @@
+usage
+-----
+./todo
+
+link
+----
+the todo.txt file reference is hardcoded for a debian environment (mine is a rasberry pi)
+with a link set up in the home directory to the todo.sh file in the ToDoList directory
+where the todo.sh file starts the todo.py file
+
+$ ln -s /Documents/ToDoList/todo.sh todo
+
+todo.sh
+-------
+#!/bin/bash
+python ~/Documents/ToDoList/todo.py "$@"
+
+
+the "$@" needs to be in double quotes, it converts all arguments to words in "", so doesn't split them up
+see BASH scripting course
