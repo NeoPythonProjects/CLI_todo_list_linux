@@ -1,3 +1,8 @@
+based on:
+-------
+project based on the link below (although there are errors in that code as at 3 December 2021)
+https://www.geeksforgeeks.org/how-to-make-a-todo-list-cli-application-using-python/
+
 usage
 -----
 ./todo
